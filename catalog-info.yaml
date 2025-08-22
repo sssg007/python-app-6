@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-6
+  description: Python app that displays time - namec python-app-6
+  annotations:
+    github.com/project-slug: sssg007/python-app-6
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
